@@ -1,8 +1,11 @@
+
 .logo {
+	font-weight: bold;
   font-size: 20px;
 	margin: 0px;
 	margin-top: -8px;
-  float: left;
+	float: left;
+	color: rgb(115, 7, 216);
 }
 
 .navigation {
@@ -23,12 +26,10 @@ ul.nav-list {
 	padding: 0px;
 	margin: 0px;
 	font-size: 16px;
-  color: white;
+  color: rgb(0, 0, 0);
   float: right;
  
 }
-
-
 
 ul.nav-list:after {
   content: "";
@@ -48,5 +49,54 @@ ul.nav-list li {
 .anav:hover {
   color: #CCAC55;
   text-decoration: none;
+
+}
+
+.main-content {
+	position: absolute;
+	text-align: center;
+	right: 0;
+	left: 0;
+	margin-right: auto;
+	margin-left: auto;
+	width: 500px;
+
+}
+
+.main-text {
+	width: 50%;
+}
+
+footer {
+	position: absolute;
+	right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+.footer-panel {
+	width: 1060px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 12px;
+	border-top: 2px solid red;
+}
+
+.footer-nav {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.footer-copyright {
+	float: left;
+	color: rgb(0, 0, 0);
+	height: 20px;
+	line-height: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+
 
 }
