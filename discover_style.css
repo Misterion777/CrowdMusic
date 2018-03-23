@@ -1,0 +1,125 @@
+body {
+	font-family: Arial;		
+	font-size: 21px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.logo {
+	font-weight: bold;
+  	font-size: 25px;
+	float: left;
+	margin-left: 5%;
+	color: rgb(86, 28, 221);
+}
+
+.navigation {
+	width: 70%;
+	height: 75px;
+	margin-left: auto;
+	margin-right: auto;
+  border-bottom: 2px solid red;
+}
+
+.main-nav {
+	padding-top: 30px;
+}
+
+ul.nav-list {
+	margin-top: 0.5%;
+	font-size: 16px;
+    color: rgb(0, 0, 0);
+    float: right;
+
+}
+
+ul.nav-list:after {
+  content: "";
+  clear: both;
+
+}
+
+ul.nav-list li {
+	display: inline;
+	margin-left: 1rem;
+}
+
+.anav {
+	font-size: 20px;
+	color: rgb(86, 28, 221);
+}
+.anav:hover {
+  color: #CCAC55;
+  text-decoration: none;
+}
+
+ul.buttons-list{
+  margin-left:20%;
+  margin-right:20%;
+}
+
+ul.buttons-list li {
+  display: inline;
+}
+
+.container {
+    overflow: hidden;
+}
+.container:after{
+    clear: both;
+}
+
+.filterDiv {
+    
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 50%;
+    line-height: 100px;
+    text-align: center;
+    margin: 1% 25% 1% 25%;
+    display: none; 
+}
+
+
+.show {
+    display: block;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+.footer-panel {
+	clear: both;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12px;
+	border-top: 2px solid red;
+}
+
+.footer-nav {
+	padding-top: 1%;
+}
+
+.footer-copyright {
+	float: left;
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	margin-left: 5%;
+}

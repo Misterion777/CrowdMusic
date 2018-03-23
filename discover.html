@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CrowdMusic</title>
+        <link href="discover_style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="navigation">
+                <nav class="main-nav">
+                    <a href="index.html" class="logo">CrowdMusic</a>
+                    <ul class="nav-list">
+                        <li><a href="register.html" class="anav">Start a project</a></li>
+                        <li><a href="discover.html" class="anav">Discover</a></li>
+                        <li><a href="" class="anav">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>       
+        </header>
+
+        <div id="filterBtnContainer">
+                <ul class="buttons-list">
+                    <li><button class="btn active" onclick="filterSelection('all')"> Show all</button></li>
+                    <li><button class="btn" onclick="filterSelection('Rock')"> Rock</button></li>
+                    <li><button class="btn" onclick="filterSelection('Jazz')"> Jazz</button></li>
+                    <li><button class="btn" onclick="filterSelection('Pop')"> Pop</button></li>
+                    <li><button class="btn" onclick="filterSelection('Hip-Hop')"> Hip-hop</button></li>
+                    <li><button class="btn" onclick="filterSelection('Classic')"> Classic</button></li>
+                    <li><button class="btn" onclick="filterSelection('Blues')"> Blues</button> </li>
+                    <li><button class="btn" onclick="filterSelection('Ambient')"> Ambient</button></li>
+                    <li><button class="btn" onclick="filterSelection('Experimental')"> Experimental</button></li>
+                    <li><button class="btn" onclick="filterSelection('Progressive')"> Progressive</button></li>
+                    <li><button class="btn" onclick="filterSelection('Metal')"> Metal</button></li>
+                </ul>
+            </div>
+            
+            <div class="container">
+                <div class="filterDiv Rock">Beatles</div>
+                <div class="filterDiv Jazz">John Coltrane</div>
+                <div class="filterDiv Hip-Hop">Kendrick</div>
+                <div class="filterDiv Rock Experimental Progressive">King Crimson</div>
+                <div class="filterDiv Progressive Metal">Dream Theater</div>
+                <div class="filterDiv Metal">Metallica</div>
+                <div class="filterDiv Ambient Experimental">Brian Eno</div>
+                <div class="filterDiv Rock Blues Classic Experimental">Paint Box Hoax</div>
+                <div class="filterDiv Classic Experimental">Stravinsky</div>
+                <div class="filterDiv Hip-Hop Jazz">Hydooli</div>
+                <div class="filterDiv Jazz Rock Progressive Experimental">Machavishnu</div>
+                <div class="filterDiv Pop">Madonna</div>
+                <div class="filterDiv Pop">Michael Jackson</div>
+                <div class="filterDiv Blues">B.B. King</div>
+            </div> 
+      
+        <footer>	
+            <div class="footer-panel">
+                <nav class="footer-nav">
+                    <a class="footer-copyright">Copyright Policy</a>
+                    <ul class="nav-list">
+                        <li>
+                            <a href="https://www.facebook.com/ilya.lasy"><img src="assets/Social/fb.png"></a>
+                        </li>
+                        <li>
+                            <a href="https://vk.com/misterion401"><img src="assets/Social/vk.png"></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/Misterion77"><img src="assets/Social/tw.png"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com"><img src="assets/Social/in.png"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+        <script src="discover.js" ></script>
+    </body>
+</html>
+

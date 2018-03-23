@@ -3,12 +3,15 @@ body {
 	font-size: 21px;
 }
 
+a{
+	text-decoration: none;
+}
 .logo {
 	font-weight: bold;
-  font-size: 20px;
+  	font-size: 25px;
 	float: left;
 	margin-left: 5%;
-	color: rgb(115, 7, 216);
+	color: rgb(86, 28, 221);
 }
 
 .navigation {
@@ -16,7 +19,7 @@ body {
 	height: 75px;
 	margin-left: auto;
 	margin-right: auto;
-  border-bottom: 2px solid red;
+  	border-bottom: 2px solid red;
 }
 
 .main-nav {
@@ -26,15 +29,14 @@ body {
 ul.nav-list {
 	margin-top: 0.5%;
 	font-size: 16px;
-  color: rgb(0, 0, 0);
-  float: right;
+  	color: rgb(0, 0, 0);
+  	float: right;
 
 }
 
 ul.nav-list:after {
   content: "";
   clear: both;
-
 }
 
 ul.nav-list li {
@@ -43,7 +45,8 @@ ul.nav-list li {
 }
 
 .anav {
-	text-decoration: none;
+	font-size: 20px;
+	color: rgb(86, 28, 221);
 }
 
 .anav:hover {
@@ -54,7 +57,7 @@ ul.nav-list li {
 .main-content {
 	margin-right: 20%;
 	margin-left: 20%;
-	margin-bottom: 5%;
+	margin-bottom: 2%;
 }
 
 .main-left {
@@ -72,7 +75,7 @@ ul.nav-list li {
 	margin-bottom: 10%;
 }
 
-input[type=text], input[type=password] {
+input {
 	width: 95%;
 	padding: 15px;
 	margin-right: 5%;
@@ -83,7 +86,7 @@ input[type=text], input[type=password] {
 	background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=password]:focus {
+input:focus{
 	background-color: #ddd;
 	outline: none;
 }
@@ -93,7 +96,7 @@ hr {
 	margin-bottom: 25px;
 }
 
-button {
+a.button{
 	background-color: #4CAF50;
 	color: white;
 	padding: 14px 20px;
@@ -102,36 +105,47 @@ button {
 	cursor: pointer;
 	width: 100%;
 	opacity: 0.9;
+	text-decoration: none;
+}
+a.button:hover{
+	opacity:1;
+}
+
+iframe{
+	margin-left: 18%;
+}
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	
+	opacity: 0.9;
+	float: left;
+	width: 50%;
 }
 
 button:hover {
 	opacity:1;
 }
 
-
-.cancelbtn {
-	padding: 14px 20px;
-	background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-float: left;
-width: 50%;
-}
-
 .main-form {
 	border:1px solid #ccc;
 	margin-left: 15%;
 	margin-right: 15%;
+	margin-top: 3%;
+	margin-bottom: 3%;
 }
 
-/* Add padding to container elements */
+
 .container {
 	padding: 16px;
+	
 }
 
-/* Clear floats */
 .clearfix::after {
 	content: "";
 	clear: both;
